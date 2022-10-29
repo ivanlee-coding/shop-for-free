@@ -1,9 +1,7 @@
 const { Schema, model } = require('mongoose');
-const ObjectId = Schema.ObjectId;
 const thisSchema = {};
 
 const userAuth = new Schema({
-  "_id": ObjectId,
   "id": String,
   "name": String,
   "phone": String,

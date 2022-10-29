@@ -19,13 +19,12 @@ const mongo = {
 
     update: async() => {
         var isUpdated = await userModel.user_auth.create({
-            "_id": mongoose.Types.ObjectId(),
-            "id": "a6d635cd4348a731de668195",
-            "name": "customer1",
-            "phone": "30624700",
-            "credit": 1000.00,
+            "id": mongoose.Types.ObjectId(),
+            "name": "customer2",
+            "phone": "20624700",
+            "credit": 120.54,
             "married": false,
-            "email": "funny@joke.com"
+            "email": "fy@outlook.com"
         })
 
         console.log(isUpdated);

@@ -1,19 +1,36 @@
 {
-    "name": "shop-for-free",
-    "version": "1.0.0",
-    "description": "CommonJS, NodeJS, EJS, ExpressJS, Stripe, MongoDB, Mongoose",
-    "main": "app.js",
-    "dependencies": {
-        "dotenv": "^16.0.3",
-        "mongoose": "^6.7.0"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node app.js"
-    },
-    "author": "ivan LEE",
-    "license": "ISC",
-    "devDependencies": {
-        "eslint": "^8.26.0"
-    }
+  "name": "shop-for-free",
+  "version": "2022.20.29",
+  "description": "CommonJS, NodeJS, EJS, ExpressJS, Stripe, MongoDB, Mongoose",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "ivan LEE",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanlee-coding/shop-for-free.git"
+  },
+  "keywords": [
+    "CommonJS",
+    "NodeJS",
+    "EJS",
+    "ExpressJS",
+    "Stripe",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "bugs": {
+    "url": "https://github.com/ivanlee-coding/shop-for-free/issues"
+  },
+  "homepage": "https://github.com/ivanlee-coding/shop-for-free#readme"
 }
