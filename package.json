@@ -1,0 +1,19 @@
+{
+    "name": "shop-for-free",
+    "version": "1.0.0",
+    "description": "CommonJS, NodeJS, EJS, ExpressJS, Stripe, MongoDB, Mongoose",
+    "main": "app.js",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "mongoose": "^6.7.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "ivan LEE",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.26.0"
+    }
+}
