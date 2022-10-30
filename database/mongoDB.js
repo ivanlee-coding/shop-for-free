@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const userModel = require('../schema/user');
 
 const serverUrl = process.env.MONGODB_URL || 'localhost';
-const db_name = process.env.MONGODB_NAME || 'none';
+const db_name = process.env.MONGODB_NAME || 'test';
 
 const mongo = {
 
