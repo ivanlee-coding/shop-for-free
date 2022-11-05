@@ -1,7 +1,12 @@
 <!-- ABOUT THE PROJECT -->
 ## Background about the project
 <a name="readme-top"></a>
-Building this project for practising modern building stacks (maybe not modern anymore while you are reading this :sob:...), I am quite interested in shopping payment gateway at the moment, so Stripe is chosen for the core element in this project, while using online database Atlas for integration. Through this project, there are 3 ultimate targets:
+Building this project for practising modern building stacks 
+(maybe not modern anymore while you are reading this :sob:...), 
+I am quite interested in shopping payment gateway at the moment, 
+so Stripe is chosen for the core element in this project, 
+while using online database Atlas for integration. 
+Through this project, there are 3 ultimate targets:
 
 * Provide bug-free environment
 * Achieve great user experience
@@ -12,7 +17,6 @@ Building this project for practising modern building stacks (maybe not modern an
 * [![Stripe][stripe]][stripe-url]
 * [![ExpressJS][expressjs]][expressjs-url]
 * [![MongoDB][mongodb]][mongodb-url]
-
 
 <!-- GETTING STARTED -->
 ### Prerequisites
@@ -28,12 +32,11 @@ Provided that the user of this project has basic understanding of server-client 
    ```sh
    npm install
    ```
-4. Enter your API in `.env`
+4. Enter your own api keys in `.env`
    ```js
    API_KEY='ENTER YOUR API';
    ```
-### Have Fun !!!
-
+### Have Fun !!!  
 
 <!-- LICENSE -->
 ## License
@@ -43,7 +46,9 @@ Distributed under the MIT License.
 
 
 <!-- CONTACT -->
-## Contact
+
+
+## Contact  
 Whatsapp: +852 90886112
 
 
