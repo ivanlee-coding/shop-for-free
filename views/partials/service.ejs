@@ -1,26 +1,40 @@
-<section id="one" class="wrapper style2 spotlights">
+<section id="service" class="wrapper style2 spotlights">
     <section>
         <a href="#" class="image"><img src="images/spa.PNG" alt="" data-position="center center" /></a>
         <div class="content">
             <div class="inner">
-                <h2>SPA</h2>
+                <h2>SPA TREATMENT</h2>
                 <p>週末約同閨蜜好友放鬆身心,自製旅行感覺,按摩水療SPA和熱石香薰按摩絕對是洗滴心靈好去處,享受悠閒假期!</p>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">BUY</a></li>
-                </ul>
+                <div class="row">
+                    <label class="col-2">買買買: </label>
+                    <label id="s1_counter" class="col-6">0</label>
+                    <label class="col-3 button" onclick="incBuy('s1_counter')">BUY</label>
+                </div>
+
             </div>
         </div>
     </section>
+
     <section>
         <a href="#" class="image"><img src="images/gym.PNG" alt="" data-position="top center" /></a>
         <div class="content">
             <div class="inner">
-                <h2>GYM</h2>
+                <h2>GYM TRAINING</h2>
                 <p>定製私人健身計劃,與顧問一起完善您的健康人生,將幫助您塑造新體型,快點加入計劃啦~</p>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">BUY</a></li>
-                </ul>
+                <div class="row">
+                    <label class="col-2">買買買: </label>
+                    <label id="s2_counter" class="col-6">0</label>
+                    <label class="col-3 button" onclick="incBuy('s2_counter')">BUY</label>
+                </div>
             </div>
         </div>
     </section>
 </section>
+
+<script>
+    const incBuy = (id) => {
+        var element = document.getElementById(id).innerText;
+        document.getElementById(id).innerHTML = ++element;
+    }
+
+</script>

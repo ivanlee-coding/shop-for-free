@@ -1,6 +1,8 @@
 <!-- ABOUT THE PROJECT -->
 ## Background about the project
 <a name="readme-top"></a>
+<pre>
+
 Building this project for practising modern building stacks 
 (maybe not modern anymore while you are reading this :sob:...), 
 I am quite interested in shopping payment gateway at the moment, 
@@ -10,13 +12,16 @@ Through this project, there are 3 ultimate targets:
 
 * Provide bug-free environment
 * Achieve great user experience
-* Understand DevOps work flow 
+* Understand DevOps work flow
+
+</pre>
 
 ### Core Components
 * [![NodeJS][nodejs]][nodejs-url]
 * [![Stripe][stripe]][stripe-url]
 * [![ExpressJS][expressjs]][expressjs-url]
 * [![MongoDB][mongodb]][mongodb-url]
+<br />
 
 <!-- GETTING STARTED -->
 ### Prerequisites
@@ -36,7 +41,9 @@ Provided that the user of this project has basic understanding of server-client 
    ```js
    API_KEY='ENTER YOUR API';
    ```
-### Have Fun !!!  
+
+<br />
+# Have Fun !!!  
 
 <!-- LICENSE -->
 ## License
