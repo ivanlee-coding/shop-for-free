@@ -13,5 +13,5 @@ app.get('/', (req, res) => {res.render('index');});
 
 app.listen(process.env.EXPRESS_SERVER_PORT);
 
-console.log(`Program running in: ${process.env.Mode} mode, using port: ${process.env.EXPRESS_SERVER_PORT} ...`);
+console.log(`Program running in: ${process.env.MODE} mode, using port: ${process.env.EXPRESS_SERVER_PORT} ...`);
 // app.use(express.static('www'));
