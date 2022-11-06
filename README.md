@@ -4,17 +4,19 @@
 <pre>
 
 Building this project for practising modern building stacks 
-(maybe not modern anymore while you are reading this :sob:...), 
+(maybe not modern anymore while you are reading this, 
 I am quite interested in shopping payment gateway at the moment, 
 so Stripe is chosen for the core element in this project, 
 while using online database Atlas for integration. 
 Through this project, there are 3 ultimate targets:
 
+</pre>
+
 * Provide bug-free environment
 * Achieve great user experience
 * Understand DevOps work flow
+<br />
 
-</pre>
 
 ### Core Components
 * [![NodeJS][nodejs]][nodejs-url]
@@ -43,22 +45,16 @@ Provided that the user of this project has basic understanding of server-client 
    ```
 
 <br />
-# Have Fun !!!  
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License.
-
-
+### Have Fun !!!  
+<br />
 
 <!-- CONTACT -->
-
-
 ## Contact  
 Whatsapp: +852 90886112
 
-
+<!-- LICENSE -->
+## License
+Distributed under the MIT License.
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
