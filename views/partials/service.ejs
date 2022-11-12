@@ -5,12 +5,14 @@
             <div class="inner">
                 <h2>SPA TREATMENT</h2>
                 <p>週末約同閨蜜好友放鬆身心,自製旅行感覺,按摩水療SPA和熱石香薰按摩絕對是洗滴心靈好去處,享受悠閒假期!</p>
-                <div class="row">
-                    <label class="col-2">買買買: </label>
-                    <label id="s1_counter" class="col-6">0</label>
-                    <label class="col-3 button" onclick="incBuy('s1_counter')">BUY</label>
-                </div>
-
+              
+                <span class="row aln-left">
+                <h3 class="col-2">買買買: </h3>
+                <h3 id="s1_counter" class="col-2 sale-num">0</h3>
+                </span>
+                <span class="row aln-right">
+                    <div id="s1_btn" class="button">BUY</div>
+                </span>
             </div>
         </div>
     </section>
@@ -21,20 +23,14 @@
             <div class="inner">
                 <h2>GYM TRAINING</h2>
                 <p>定製私人健身計劃,與顧問一起完善您的健康人生,將幫助您塑造新體型,快點加入計劃啦~</p>
-                <div class="row">
-                    <label class="col-2">買買買: </label>
-                    <label id="s2_counter" class="col-6">0</label>
-                    <label class="col-3 button" onclick="incBuy('s2_counter')">BUY</label>
-                </div>
+                <span class="row aln-left">
+                    <h3 class="col-2">買買買: </h3>
+                    <h3 id="s2_counter" class="col-2 sale-num">0</h3>
+                </span>
+                <span class="row aln-right">
+                    <div id="s2_btn" class="button">BUY</div>
+                </span>
             </div>
         </div>
     </section>
 </section>
-
-<script>
-    const incBuy = (id) => {
-        var element = document.getElementById(id).innerText;
-        document.getElementById(id).innerHTML = ++element;
-    }
-
-</script>
