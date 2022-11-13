@@ -23,6 +23,8 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
+			wordflick();
 		});
 
 	// Forms.
@@ -192,4 +194,64 @@
 		$(`#${saleCounterID}`).text(newCount);
 		$(`#${saleCounterID}`).css('animation-duration', `${2 - 1.5*(newCount/10)}s`);
 	});
+
+
+	// web-title
+	// var words = ['賽賽の網店', '↵'];
+	var words = ['|','|','|'];
+	var prefix = '歡迎來到 ';
+
+    var part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 1,
+    speed = 1100;
+
+var wordflick = () => {
+
+  setInterval(() => {
+    if (forwards) {
+      if (offset >= words[i].length) {
+        ++skip_count;
+        if (skip_count == skip_delay) {
+          forwards = false;
+          skip_count = 0;
+        }
+      }
+    }
+    else {
+      if (offset == 0) {
+        forwards = true;
+        i++;
+        offset = 0;
+        if (i >= len) {
+          i = 0;
+        }
+      }
+    }
+
+    part = words[i].substr(0, offset);
+
+    if (skip_count == 0) {
+      if (forwards) {
+        offset++;
+      }
+      else {
+        offset--;
+      }
+    }
+
+	part = prefix.concat(part);
+
+	console.log(part);
+    $('web-title').text(part);
+  },speed);
+
+
+
+};
+
 })(jQuery);
